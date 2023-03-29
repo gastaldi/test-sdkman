@@ -13,4 +13,5 @@ jobs:
       uses: gastaldi/install-quarkus-cli-action@main
 
     - run: quarkus --version
+    - run: quarkus create app -S 2.16
 
