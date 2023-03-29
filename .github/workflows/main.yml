@@ -14,5 +14,5 @@ jobs:
         curl -Ls https://sh.jbang.dev | bash -s - trust add https://repo1.maven.org/maven2/io/quarkus/quarkus-cli/
         curl -Ls https://sh.jbang.dev | bash -s - app install --fresh --force quarkus@quarkusio
 
-    - run: ~/.jbang/bin/quarkus --version
+    - run: /home/runner/.jbang/bin/quarkus --version
       shell: bash
